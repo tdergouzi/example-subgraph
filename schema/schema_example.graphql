@@ -1,0 +1,7 @@
+type ExampleEntity @entity {
+    # account address
+    id: ID!
+    blockNumber:BigInt!
+    timestamp:BigInt!
+    interactedTimes: BigInt!
+}
